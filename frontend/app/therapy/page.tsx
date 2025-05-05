@@ -1,9 +1,9 @@
-import { KYCForm } from "@/components/KYCForm";
+import InterviewForm from "@/components/InterviewForm";
 
-function KYCPage() {
+function TherapyPage() {
     return (
-        <KYCForm />
+        <InterviewForm />
     );
 }
 
-export default KYCPage;
+export default TherapyPage;
