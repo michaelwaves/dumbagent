@@ -11,9 +11,9 @@ export async function createConversation() {
     const body = {
         replica_id: "r198a3fa79e9",
         callback_url: "https://kyc.info/webhook",
-        conversation_name: "A Reference for a Founder",
+        conversation_name: "Self Therapy",
         conversational_context: `
-       
+You are a therapist giving a therapy session to yourself. 
          `,
         custom_greeting: "Hey there!",
         properties: {

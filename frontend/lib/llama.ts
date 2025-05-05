@@ -18,7 +18,7 @@ export async function summarizeTranscript(transcript: any[]) {
             messages: [
                 {
                     role: 'system',
-                    content: 'You are a financial crime analyst assistant. Analyze the transcript and summarize any signs of money laundering, suspicious activity, or criminal intent. Be concise and factual.',
+                    content: 'You are a therapist. Read the transcript and provide recommendations to the patient',
                 },
                 {
                     role: 'user',

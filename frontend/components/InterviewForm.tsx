@@ -80,7 +80,7 @@ function InterviewForm() {
                     <span className="text-green-500 font-medium">Successfully submitted</span>
                     <TranscriptDisplay transcript={transcript} />
                     <div>
-                        <p className="font-bold">Transcript Summary and recommendation:</p>
+                        <p className="font-bold space-y-3 p-4 max-w-2xl mx-auto">Transcript Summary and recommendation:</p>
 
                         {summary}</div>
                 </div>
