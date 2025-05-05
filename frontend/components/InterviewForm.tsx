@@ -66,21 +66,21 @@ function InterviewForm() {
     return (
         <div className="p-6 space-y-6">
             <div className="flex flex-wrap items-center gap-4">
-                <Button onClick={handleStartConversation} className="bg-pink-500">Start Interview</Button>
+                <Button onClick={handleStartConversation} className="bg-pink-500">Start Session</Button>
                 {url && (
                     <Button variant="destructive" onClick={handleEndConversation}>
                         End Call
                     </Button>
                 )}
-                <Button onClick={handleSubmitConversation}>Submit Interivew</Button>
+                <Button onClick={handleSubmitConversation}>Submit Session</Button>
             </div>
             {transcript && (
                 <div className="flex flex-col items-center gap-2">
                     <Check className="w-5 h-5 text-green-500" />
                     <span className="text-green-500 font-medium">Successfully submitted</span>
                     <TranscriptDisplay transcript={transcript} />
-                    <div>
-                        <p className="font-bold space-y-3 p-4 max-w-2xl mx-auto">Transcript Summary and recommendation:</p>
+                    <div className=" space-y-3 p-4 max-w-2xl mx-auto">
+                        <p className="font-bold">Transcript Summary and recommendation:</p>
 
                         {summary}</div>
                 </div>
